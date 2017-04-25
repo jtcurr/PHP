@@ -17,9 +17,9 @@
 <?php
 
 
-
+  
 		/* Step 1: Make 2 variables called number1 and number2 and set 1 to value 10 and the other 20:
-
+    
 		  Step 2: Add the two variables and display the sum with echo:
 
 
@@ -27,7 +27,12 @@
 
 		 
 			 */
-
+    $number1 = 10;
+    $number2 = 20;
+    $number3 = $number1 + $number2;
+    echo $number3;
+    $arr = array(10,20);
+    $arr2 = array("number1" => 10, "number2" => 20);
 		
 
 

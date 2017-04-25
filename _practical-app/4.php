@@ -22,7 +22,10 @@
 
 
  */
-
+	function test ($num1, $num2) {
+    return $num1 + $num2;
+	}
+  echo test(12, 19);
 	
 ?>
 

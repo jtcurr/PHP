@@ -1,5 +1,5 @@
-<?php include "functions.php" ?>
-<?php include "includes/header.php" ?>
+<?php include "functions.php"; ?>
+<?php include "includes/header.php";?>
 
 	<section class="content">
 
@@ -36,7 +36,7 @@
 	</article>
 			
 
-<?php include "includes/footer.php" ?>
+<?php include "includes/footer.php"; ?>
 			
 			
 

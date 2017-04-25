@@ -13,6 +13,11 @@
 
 	
 	<?php 
+	echo rand(1,49);
+	$str = 'test';
+	echo strtoupper($str);
+	$arr = [1,3,1,2,1,3];
+	echo max($arr);
 
 
 /*  Step1: Use a pre-built math function here and echo it

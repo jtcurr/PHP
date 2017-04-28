@@ -1,9 +1,7 @@
 <?php include 'db.php'; ?>
 <?php include 'functions.php'; ?>
 <?php
- if(isset($_POST['submit'])){
-   updateData();
- }
+   //deleteRows();
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,8 +12,8 @@
 <body>
   <div class="container">
     <div class="col-sm-6">
-    <h1 class="center-text">Update data</h1>
-      <form action="login_create.php" method="post">
+    <h2 class="text-center">Delete Record</h2>
+      <form action="login_delete.php" method="post">
         <div class="form-group">
           <label for="username">Username</label>
             <input type="text" name="username" class="form-control">
@@ -31,7 +29,7 @@
             ?>
           </select>
         </div>
-      <input type="submit" class="btn btn-primary" name="submit" value="Update">
+      <input type="submit" class="btn btn-primary" name="submit" value="DELETE">
       </form>
     </div>
   </div>

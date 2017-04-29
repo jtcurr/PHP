@@ -16,6 +16,12 @@
 	
 	
 	<?php  
+	$text = "All the tests";
+  $hashFormat = "$2y$10$";
+  $salt = "iusesomecrazystrings22";
+  $hash_and_salt = $hashFormat . $salt;
+  $password = crypt($password, $hash_and_salt);
+  echo('$password');
 
 	/*  Step 1 -Make a variable with some text as value
 

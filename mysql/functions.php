@@ -66,6 +66,11 @@ function createEntry() {
     die("database connection failed");
   }
 
+  $hashFormat = "$2y$10$";
+  $salt = "iusesomecrazystrings22";
+  $hash_and_salt = $hashFormat . $salt;
+  $password = crypt($password, $hash_and_salt);
+
   $query = "INSERT INTO users(username, password) ";
   $query .= "VALUES ('$username', '$password')";
 

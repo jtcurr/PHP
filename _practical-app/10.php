@@ -13,6 +13,18 @@
 
 	
 	<?php  
+	class Dog {
+		var $eye = 'blue';
+		var $nose = 'wet';
+		var $furColor = 'Bagel-colored';
+		function showAll() {
+			echo "$eye";
+			echo "$nose";
+			echo "$furColor";
+		}
+	}
+
+	$pitBull = new Dog();
 
 	/*  Step 1: Use the Make a class called Dog
 

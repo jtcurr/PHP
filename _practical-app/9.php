@@ -18,6 +18,9 @@
 		
 	
 	<?php 
+	setcookie();
+	$_COOKIE('yes', 'no', (60*60*7));
+	$_SESSION['Greeting'] = 'Hello Student';
 
 	/*  Create a link saying Click Here, and set 
 	the link href to pass some parameters and use the GET super global to see it
@@ -28,8 +31,8 @@
 	*/
 	
 	?>
-
-
+$test = 10;
+<a href="9.php?id=<?php $test ?>">ClickHere</a>
 
 
 

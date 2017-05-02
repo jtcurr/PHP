@@ -21,9 +21,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
 	<title>Car Class</title>
 </head>
 <body>
+  <div class="container">
+    <div class="doors">
+    </div>
+  </div>
 
 </body>
 </html>

@@ -18,9 +18,9 @@
 		var $nose = 'wet';
 		var $furColor = 'Bagel-colored';
 		function showAll() {
-			echo "$eye";
-			echo "$nose";
-			echo "$furColor";
+			echo $this->eyeColors. "<br>";
+			echo $this->nose. "<br>"
+			echo $this->furColor. "<br>"
 		}
 	}
 

@@ -9,7 +9,16 @@
 	font-family: Arial, Helvetica;
   color: #fff;
 }
-.outside-active {
+
+.outside {
+	background-color: #4286f4;
+	font-family: Arial;
+	font-stretch: 1px;
+	border-radius: 12px;
+	border-top: 5px;
+}
+
+.outside active {
 	background-color: #fff;
 	font-family: Georgia;
 	font-stretch: 2px;
